@@ -44,3 +44,31 @@
 
     <img src="media/16.png" width="150">
 
+## 基板の解析
+
+<img src="media/17.jpg" width="300">
+
+### U1
+
+|Pin|Note|
+|:--|:--|
+|1|GND|
+|2|V-MOTOR 2-Orange|
+|3|V-MOTOR 3-Yellow|
+|4|V-MOTOR 4-Purple|
+|5|V-MOTOR 5-Blue|
+|6|H-MOTOR 2-Orange|
+|7|H-MOTOR 3-Yellow|
+|8|H-MOTOR 4-Purple|
+|9|H-MOTOR 5-Blue|
+|10|LED Driver CLK|
+|11|SW ON/OFF|
+|12|SW SPEED|
+|13|SW RL|
+|14|SW UD|
+|15|SW TIME|
+|16|LED Driver DIO|
+|17|FAN-MOTOR H-Red|
+|18|FAN-MOTOR M-White|
+|19|FAN-MOTOR L-Blue|
+|20|+5V|
