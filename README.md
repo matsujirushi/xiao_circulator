@@ -72,3 +72,47 @@
 |18|FAN-MOTOR M-White|
 |19|FAN-MOTOR L-Blue|
 |20|+5V|
+
+### FAN-MOTOR
+
+* H,M,LのいずれかをHIGHでファン回転。
+* Hは高速、Mは中速、Lは低速。
+
+<img src="media/18.png" width="300">
+<img src="media/19.png" width="300">
+<img src="media/20.png" width="300">
+<img src="media/21.png" width="300">
+
+### H-MOTOR
+
+* 電源オン時に29.3秒正転、14.8秒逆転。
+* 2->3->4->5で正転。
+* 切り替えタイミングは4ミリ秒。
+* 加減速制御は無い。
+
+<img src="media/22.png" width="300">
+<img src="media/23.png" width="300">
+
+### V-MOTOR
+
+* 電源オン時に22.9秒正転、23.0秒逆転。
+* 2->3->4->5で正転。
+* 切り替えタイミングは6.0ミリ秒。
+* 加減速制御は無い。
+
+<img src="media/24.png" width="300">
+<img src="media/25.png" width="300">
+
+### LED Driver
+
+* 常に通信。
+* 199.6ミリ秒周期で5件。
+* 1件は13.1ミリ秒。
+* CLKのパルス幅は107マイクロ秒。
+
+<img src="media/26.png" width="300">
+<img src="media/27.png" width="300">
+<img src="media/28.png" width="300">
+
+<img src="media/29.png" width="300">
+<img src="media/30.png" width="300">
