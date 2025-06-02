@@ -116,3 +116,31 @@
 
 <img src="media/29.png" width="300">
 <img src="media/30.png" width="300">
+
+```
+01101000 00001110 0x68 0x0E DIG1 x3-TIMER
+01101010 00001100 0x6A 0x0C DIG2 x2-V
+01101100 00111100 0x6C 0x3C DIG3 x3-H
+01101110 00011110 0x6E 0x1E DIG4 x3-FAN,x1-POWER
+01001000 00100001 0x48 0x21 Set system parameters
+                              display on
+                              sleep ode disable
+                              eight segment
+                              2 levels of brightness
+```
+
+```
+01001000 00010001 0x48 0x21 Set system parameters
+                              display on
+                              sleep ode disable
+                              eight segment
+                              1 levels of brightness
+```
+
+# XIAOピン割当
+
+x3 FAN-MOTOR
+x4 H-MOTOR
+x4 V-MOTOR
+x2 LED Driver
+x5 Button
